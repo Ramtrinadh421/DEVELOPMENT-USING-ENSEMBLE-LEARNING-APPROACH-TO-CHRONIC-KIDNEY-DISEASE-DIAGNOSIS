@@ -33,57 +33,6 @@ This project implements machine learning techniques to predict Chronic Kidney Di
 - **Deployment Ready**  
   Modular and well-structured for integration into clinical applications.
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-Navigate to the project directory:
-
-bash
-Copy
-Edit
-cd your-repo-name
-(Optional) Create and activate a virtual environment:
-
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Usage
-Prepare your dataset (ensure it follows the expected format).
-
-Run the preprocessing script:
-
-bash
-Copy
-Edit
-python preprocess.py
-Train and evaluate models:
-
-bash
-Copy
-Edit
-python train_models.py
-Generate predictions:
-
-bash
-Copy
-Edit
-python predict.py
-Visualize results using:
-
-bash
-Copy
-Edit
-python visualize.py
 Requirements
 Python 3.7+
 
@@ -99,16 +48,18 @@ pandas
 
 numpy
 
-(You can generate a requirements.txt file via pip freeze > requirements.txt.)
-
 Dataset
 The project uses publicly available CKD datasets or clinical datasets formatted accordingly. Ensure your data is cleaned and preprocessed as per instructions.
 
 Contributing
-Contributions are welcome! Please open issues or submit pull requests for improvements.
+## Installation
 
-License
-This project is licensed under the MIT License.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
 
-Developed by: Balaji, Ramtrinadh, Charan
-Date: 2025
+##Navigate to the project directory:
+  ```bash
+  cd your-repo-name
+
+  
